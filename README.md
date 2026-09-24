@@ -13,7 +13,7 @@ npm run dev
 
 ## GitHub Pages
 
-The GitHub Actions workflow at `.github/workflows/deploy.yml` builds and publishes the static Next.js export whenever code is pushed to `main`. It also supports manual runs from the Actions tab. GitHub's Pages action supplies the site's base path so project sites work below `/<repository-name>/`.
+The public site is available at <https://beyond-the-blue-door.autonateai.com>. The GitHub Actions workflow at `.github/workflows/deploy.yml` builds and publishes the static Next.js export whenever code is pushed to `main`. It also supports manual runs from the Actions tab. GitHub's Pages action supplies the site's base path so project sites work below `/<repository-name>/`.
 
 In the GitHub repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**. The repository must be public to use GitHub Pages on a free GitHub plan. After the first successful deployment, GitHub shows the public site URL in the `github-pages` deployment environment and the workflow run.
 
