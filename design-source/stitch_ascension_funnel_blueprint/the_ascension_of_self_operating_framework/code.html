@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Beyond the Blue Door (BTBD)</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary": "#ffffff", "on-surface-variant": "#44474c", "on-primary-fixed-variant": "#3a4859", "primary": "#000000", "surface-container-high": "#dce9ff", "inverse-on-surface": "#eaf1ff", "tertiary-fixed": "#ffdcc3", "secondary": "#1d4ed8", "on-secondary": "#ffffff", "on-surface": "#0d1c2e", "on-tertiary": "#ffffff", "on-primary-fixed": "#0f1c2c", "surface-dim": "#ccdbf3", "on-background": "#0d1c2e", "surface": "#f8f9ff", "on-secondary-container": "#fffbff", "surface-variant": "#d5e3fc", "surface-tint": "#525f71", "outline": "#74777d", "error-container": "#ffdad6", "tertiary-fixed-dim": "#ffb77d", "surface-container-lowest": "#ffffff", "primary-fixed-dim": "#bac8dc", "surface-container": "#e6eeff", "surface-bright": "#f8f9ff", "on-secondary-fixed": "#001551", "primary-container": "#0f1c2c", "secondary-container": "#4069f2", "background": "#f8f9ff", "primary-fixed": "#d6e4f9", "tertiary-container": "#2f1500", "surface-container-low": "#eff4ff", "on-error-container": "#93000a", "inverse-surface": "#233144", "tertiary": "#000000", "on-tertiary-fixed-variant": "#6e3900", "secondary-fixed": "#dce1ff", "on-tertiary-container": "#c76c00", "outline-variant": "#c4c6cc", "inverse-primary": "#bac8dc", "surface-container-highest": "#d5e3fc", "on-secondary-fixed-variant": "#0039b5", "on-primary-container": "#778598", "on-tertiary-fixed": "#2f1500", "secondary-fixed-dim": "#b7c4ff", "error": "#ba1a1a", "on-error": "#ffffff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "1.5rem", "space-xs": "0.25rem", "gutter-mobile": "1rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "margin-mobile": "1.25rem", "margin": "3rem", "space-2xl": "4rem", "space-md": "1rem", "space-xl": "2.5rem" }, "fontFamily": { "display-hero": [ "Playfair Display" ], "headline-lg-mobile": [ "Playfair Display" ], "body-lg": [ "Plus Jakarta Sans" ], "label-caps": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ], "headline-lg": [ "Playfair Display" ], "body-md": [ "Plus Jakarta Sans" ], "title-md": [ "Plus Jakarta Sans" ], "label-metric": [ "Plus Jakarta Sans" ], "body-sm": [ "Plus Jakarta Sans" ], "headline-md": [ "Playfair Display" ], "display-hero-mobile": [ "Playfair Display" ] }, "fontSize": { "display-hero": [ "56px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "label-caps": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "700" } ], "headline-lg": [ "40px", { "lineHeight": "50px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "title-md": [ "16px", { "lineHeight": "24px", "fontWeight": "600" } ], "label-metric": [ "32px", { "lineHeight": "36px", "letterSpacing": "-0.03em", "fontWeight": "800" } ], "body-sm": [ "13px", { "lineHeight": "18px", "fontWeight": "400" } ], "headline-md": [ "28px", { "lineHeight": "36px", "fontWeight": "600" } ], "display-hero-mobile": [ "38px", { "lineHeight": "46px", "letterSpacing": "-0.015em", "fontWeight": "700" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(13,28,46,0.04)]"><div class="h-20 w-full max-w-[1280px] mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Beyond the Blue Door Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XsskP-cENIsoFMTQnopjkSkbVuBkhBHv2XjT1OAKdBjpYnFuwk0gqQWixtCAd1hOCAV8X6QMh0gGhmIltWeXcpHZNjqwJ0oGmj8E0-5iMNf8aqDa6-ZVGDP_9sqn49bj8ggAQuEA17isnHgWy3YG53uPsCctVZpyeOQB8wKknlaaBf0YS4sNGgy0y23vMu0MA8UaLOJCMRUozpywNT-tupKT6BzVkPyCaIgMM5yHhWNeKiJG7JbxPaqw"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface leading-none">Beyond the Blue Door</span><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary mt-space-xs">Ascension of Self™</span></div></div><nav class="hidden xl:flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-low/60" data-active-classes="bg-surface-container text-secondary font-title-md"><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="our-program" href="#">Our Program</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="the-ascension-model" href="#">The Ascension Model</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="financial-growth" href="#">Financial Growth</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="impact-and-intelligence" href="#">Impact &amp; Intelligence</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="community-and-partners" href="#">Community &amp; Partners</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="about" href="#">About</a></nav><div class="flex items-center gap-space-sm shrink-0"><a class="hidden sm:inline-flex items-center justify-center px-space-lg py-space-sm rounded-full font-title-md text-title-md text-primary-container bg-surface-container-lowest shadow-[0_1px_4px_rgba(13,28,46,0.08)] hover:bg-surface-container hover:text-on-surface transition-all" data-path="partner-and-fund" href="#">Partner &amp; Fund</a><a class="inline-flex items-center justify-center px-space-lg py-space-sm rounded-full font-title-md text-title-md text-on-secondary bg-secondary hover:bg-secondary-container shadow-[0_4px_16px_rgba(29,78,216,0.25)] transition-all" data-path="begin-your-journey" href="#">Begin Your Journey</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow Orbs -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute top-12 left-1/4 w-96 h-96 bg-surface-container-high/60 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-80 right-10 w-[420px] h-[420px] bg-secondary-fixed/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- 1. Breadcrumb & Framework Header Section -->
+<div class="w-full max-w-[1280px] mx-auto px-gutter pt-space-xl pb-space-2xl">
+<div class="flex flex-col gap-space-sm max-w-4xl">
+<!-- Overline Tag -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container text-secondary font-label-caps text-label-caps tracking-wider self-start shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span>CORE INTELLECTUAL ARCHITECTURE · POWERED BY AUTONATEAI</span>
+</div>
+<!-- Master Title -->
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-space-xs">
+          One Life. <span class="font-display-hero text-headline-lg italic text-secondary">Four Interconnected Systems.</span>
+</h1>
+<!-- Subhead -->
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs leading-relaxed max-w-3xl">
+          Ascension isn’t about becoming more valuable—you already possess inherent dignity and worth. It is an operating system for systematically expanding your capacity to govern your life, protect your family, and direct opportunity across your community.
+        </p>
+<!-- CTA Cluster -->
+<div class="flex flex-wrap items-center gap-space-md mt-space-md">
+<a class="inline-flex items-center justify-center px-space-xl py-space-md rounded-full font-title-md text-title-md text-on-secondary bg-primary shadow-xl hover:bg-surface-tint transition-all" href="#assessment-engine">
+<span class="material-symbols-outlined mr-space-xs text-[20px]">tune</span>
+            Calculate Your Baseline
+          </a>
+<button class="inline-flex items-center justify-center px-space-lg py-space-md rounded-full font-title-md text-title-md text-on-surface bg-surface-container-low shadow-sm hover:bg-surface-container transition-all">
+<span class="material-symbols-outlined mr-space-xs text-secondary text-[20px]">download</span>
+            Download Framework Whitepaper (PDF)
+          </button>
+</div>
+</div>
+<!-- Quick Metrics Ribbon -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md mt-space-2xl">
+<div class="flex flex-col p-space-md bg-surface-container-lowest rounded-xl shadow-sm">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Cohort Graduation Rate</span>
+<span class="font-label-metric text-label-metric text-on-surface mt-space-xs">94.8%</span>
+<span class="font-body-sm text-body-sm text-secondary mt-space-xs font-semibold">+18.2% vs. baseline</span>
+</div>
+<div class="flex flex-col p-space-md bg-surface-container-lowest rounded-xl shadow-sm">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Intergenerational Stability</span>
+<span class="font-label-metric text-label-metric text-on-surface mt-space-xs">4.2x</span>
+<span class="font-body-sm text-body-sm text-secondary mt-space-xs font-semibold">Recursive impact index</span>
+</div>
+<div class="flex flex-col p-space-md bg-surface-container-lowest rounded-xl shadow-sm">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Median Income Lift</span>
+<span class="font-label-metric text-label-metric text-on-surface mt-space-xs">+$38.4k</span>
+<span class="font-body-sm text-body-sm text-secondary mt-space-xs font-semibold">Post-18-month cycle</span>
+</div>
+<div class="flex flex-col p-space-md bg-surface-container-lowest rounded-xl shadow-sm">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Alumnae Mentorship Cycle</span>
+<span class="font-label-metric text-label-metric text-on-surface mt-space-xs">81.4%</span>
+<span class="font-body-sm text-body-sm text-secondary mt-space-xs font-semibold">Return as guides</span>
+</div>
+</div>
+</div>
+<!-- 2. Interactive 4-Domain Deep Dive Matrix -->
+<section class="w-full bg-surface-container-low py-space-2xl">
+<div class="w-full max-w-[1280px] mx-auto px-gutter">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div class="max-w-2xl">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Rigorous Domain Architecture</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-space-xs">Four Pillars of Sovereign Progression</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+              Ascension is structured into sequential thresholds. Mastery within one domain dynamically unlocks recursive resilience in the next.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container p-space-xs rounded-full">
+<span class="font-label-caps text-label-caps text-on-surface-variant px-space-sm uppercase">Navigation</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-body-sm text-body-sm text-secondary font-semibold pr-space-sm">Self-Governing Engine</span>
+</div>
+</div>
+<!-- 4 Domain Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Domain I: Self -->
+<div class="lg:col-span-6 flex flex-col justify-between bg-surface-container-lowest p-space-xl rounded-xl shadow-md">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider bg-surface-container px-space-sm py-space-xs rounded-full">Domain I · Foundational</span>
+<span class="material-symbols-outlined text-secondary text-[26px]">self_improvement</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-space-md">Self: "Can I govern myself?"</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+                Foundational equilibrium: Identity stabilization, trauma recovery, nervous system decompression, credit repair, and establishing the personal sovereignty ledger.
+              </p>
+<!-- Sub-protocols -->
+<div class="grid grid-cols-2 gap-space-sm mt-space-lg">
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-label-caps text-label-caps text-outline uppercase block">Core Intervention</span>
+<span class="font-title-md text-title-md text-on-surface block mt-space-xs">Nervous Reset &amp; Rest</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Somatic decompression &amp; somatic safe rooms</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-label-caps text-label-caps text-outline uppercase block">Financial Hygiene</span>
+<span class="font-title-md text-title-md text-on-surface block mt-space-xs">Credit &amp; Identity Audit</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Debt isolation &amp; ledger restructuring</span>
+</div>
+</div>
+</div>
+<!-- Domain KPI -->
+<div class="mt-space-lg pt-space-md bg-surface-container-high/40 p-space-md rounded-lg flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Benchmark Metrics</span>
+<p class="font-title-md text-title-md text-on-surface">Emotional Self-Regulation Index (ESRI)</p>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-secondary">88.4 / 100</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Cohort Target reached</span>
+</div>
+</div>
+</div>
+<!-- Domain II: Child & Generational Pivot (With image inspiration match) -->
+<div class="lg:col-span-6 flex flex-col justify-between bg-surface-container-lowest p-space-xl rounded-xl shadow-md">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider bg-surface-container px-space-sm py-space-xs rounded-full">Domain II · Generational Pivot</span>
+<span class="material-symbols-outlined text-secondary text-[26px]">escalator_warning</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-space-md">Child: "Can I create stability beyond myself?"</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+                Breaking generational trauma cycles through secure attachment, educational advocacy, reliable child care subsidies, and active home learning environments.
+              </p>
+<!-- Featured Visual Story Embed -->
+<div class="mt-space-md rounded-xl overflow-hidden shadow-sm bg-surface-container">
+<div class="relative h-44 w-full">
+<img class="w-full h-full object-cover" data-alt="A warm, sunlit modern farmhouse kitchen in the soft golden morning light. A joyful, loving mother in a soft cozy knit sweater is sitting at an authentic rustic wooden dining table, leaning closely with a proud radiant smile toward her school-age daughter. The bright young girl is laughing delightedly while writing and doing homework in an open workbook with pencils. Golden sunbeams cascade through the window, illuminating potted green plants, framed family portraits, and a clean, safe, harmonious home environment that embodies generational healing, peace, and domestic sovereignty." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8GH79kmZ9bLEP5QOr9DRiJnoAAEKkHz4vUQcMMTJ8KpCBWwJ5UEL5LVdsyaeGZ7uAHXLfyhR2uHuEWNnIbEBNp1cafZVBEvXN1s7QwvXIZ57NoEwT__o_y8JrUX0uCOE-TUSm6qSn1lpPduUJM8S9HDQn9tWYW2loS9y9eOO51IWGyepr3zcDhSNTonZGLmPmfA5FFQJulsfkSLk4yXaND1jtxripO1dKEwlaCxdZoNrcrPJijShd"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-4 right-4">
+<span class="font-label-caps text-label-caps text-inverse-on-surface uppercase tracking-wider">Case Insight · Sarah &amp; Maya</span>
+<p class="font-title-md text-title-md text-on-primary truncate">Generational Cycles Broken at the Breakfast Table</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Domain KPI -->
+<div class="mt-space-md pt-space-md bg-surface-container-high/40 p-space-md rounded-lg flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Benchmark Metrics</span>
+<p class="font-title-md text-title-md text-on-surface">Child Attachment Security Rating</p>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-secondary">92.1%</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">+64% post-enrollment</span>
+</div>
+</div>
+</div>
+<!-- Domain III: Family -->
+<div class="lg:col-span-6 flex flex-col justify-between bg-surface-container-lowest p-space-xl rounded-xl shadow-md">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider bg-surface-container px-space-sm py-space-xs rounded-full">Domain III · Relational Integrity</span>
+<span class="material-symbols-outlined text-secondary text-[26px]">diversity_1</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-space-md">Family: "Can I participate without losing self?"</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+                Establishing uncompromised relational boundaries, family systems therapy, safe non-coercive conflict resolution, and transitional-to-permanent sovereign housing.
+              </p>
+<!-- Protocol points -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-sm mt-space-lg">
+<div class="flex items-start gap-space-xs p-space-sm rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">verified_user</span>
+<div>
+<span class="font-title-md text-title-md text-on-surface block">Boundary Enforcement</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Legal protections &amp; sovereign asset barriers</span>
+</div>
+</div>
+<div class="flex items-start gap-space-xs p-space-sm rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">cottage</span>
+<div>
+<span class="font-title-md text-title-md text-on-surface block">Equitable Housing Access</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Independent leasehold equity grants</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Domain KPI -->
+<div class="mt-space-lg pt-space-md bg-surface-container-high/40 p-space-md rounded-lg flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Benchmark Metrics</span>
+<p class="font-title-md text-title-md text-on-surface">Household Stability Duration Index</p>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-secondary">36+ Mos</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Zero recidivism</span>
+</div>
+</div>
+</div>
+<!-- Domain IV: Community -->
+<div class="lg:col-span-6 flex flex-col justify-between bg-surface-container-lowest p-space-xl rounded-xl shadow-md">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider bg-surface-container px-space-sm py-space-xs rounded-full">Domain IV · Sovereign Leadership</span>
+<span class="material-symbols-outlined text-secondary text-[26px]">groups_3</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-space-md">Community: "Can my capacity create value for others?"</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+                Transforming from recipient into systemic architect: Living-wage employer alignment, regenerative enterprise apprenticeships, civic appointments, and micro-capital mobilization.
+              </p>
+<!-- Protocol points -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-sm mt-space-lg">
+<div class="flex items-start gap-space-xs p-space-sm rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">storefront</span>
+<div>
+<span class="font-title-md text-title-md text-on-surface block">Enterprise Seed Engine</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Direct non-dilutive micro-grants up to $15k</span>
+</div>
+</div>
+<div class="flex items-start gap-space-xs p-space-sm rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">policy</span>
+<div>
+<span class="font-title-md text-title-md text-on-surface block">Civic Governance Seats</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Board placement across regional coalitions</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Domain KPI -->
+<div class="mt-space-lg pt-space-md bg-surface-container-high/40 p-space-md rounded-lg flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Benchmark Metrics</span>
+<p class="font-title-md text-title-md text-on-surface">Community Leadership Placement</p>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-secondary">74.6%</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Active leadership roles</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. The Recursive Flywheel & Graduate Ecosystem Section -->
+<section class="w-full max-w-[1280px] mx-auto px-gutter py-space-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Left: Closed Loop Flywheel Illustration -->
+<div class="lg:col-span-6 bg-surface-container-lowest p-space-xl rounded-xl shadow-md flex flex-col items-center">
+<div class="w-full flex items-center justify-between mb-space-md">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Recursive Continuum</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Dynamic Feedback Engine</span>
+</div>
+<!-- Inline SVG Flywheel Diagram -->
+<div class="relative w-full max-w-[400px] aspect-square flex items-center justify-center p-space-md">
+<svg class="w-full h-full text-secondary" fill="none" viewbox="0 0 360 360">
+<!-- Orbit Ring -->
+<circle cx="180" cy="180" r="130" stroke="currentColor" stroke-dasharray="6 6" stroke-opacity="0.15" stroke-width="8"></circle>
+<circle class="animate-spin" cx="180" cy="180" r="130" stroke="currentColor" stroke-dasharray="140 40 80 30" stroke-opacity="0.6" stroke-width="4" style="animation-duration: 40s; transform-origin: center;"></circle>
+<!-- Central Sun / Sovereign Core -->
+<circle cx="180" cy="180" fill="#dce9ff" r="48"></circle>
+<circle cx="180" cy="180" fill="#1d4ed8" r="38"></circle>
+<text fill="#ffffff" font-size="11" font-weight="700" letter-spacing="1" text-anchor="middle" x="180" y="176">SELF</text>
+<text fill="#dce9ff" font-size="10" font-weight="500" text-anchor="middle" x="180" y="192">SOVEREIGN</text>
+<!-- Node 1: Domain I (Top) -->
+<g transform="translate(180, 50)">
+<circle cx="0" cy="0" fill="#ffffff" filter="drop-shadow(0 2px 6px rgba(13,28,46,0.1))" r="24"></circle>
+<circle cx="0" cy="0" fill="#1d4ed8" r="6"></circle>
+<text fill="#0d1c2e" font-size="11" font-weight="700" text-anchor="middle" x="0" y="-30">I. IDENTITY</text>
+</g>
+<!-- Node 2: Domain II (Right) -->
+<g transform="translate(310, 180)">
+<circle cx="0" cy="0" fill="#ffffff" filter="drop-shadow(0 2px 6px rgba(13,28,46,0.1))" r="24"></circle>
+<circle cx="0" cy="0" fill="#1d4ed8" r="6"></circle>
+<text fill="#0d1c2e" font-size="11" font-weight="700" text-anchor="middle" x="0" y="38">II. CHILD</text>
+</g>
+<!-- Node 3: Domain III (Bottom) -->
+<g transform="translate(180, 310)">
+<circle cx="0" cy="0" fill="#ffffff" filter="drop-shadow(0 2px 6px rgba(13,28,46,0.1))" r="24"></circle>
+<circle cx="0" cy="0" fill="#1d4ed8" r="6"></circle>
+<text fill="#0d1c2e" font-size="11" font-weight="700" text-anchor="middle" x="0" y="38">III. FAMILY</text>
+</g>
+<!-- Node 4: Domain IV (Left) -->
+<g transform="translate(50, 180)">
+<circle cx="0" cy="0" fill="#ffffff" filter="drop-shadow(0 2px 6px rgba(13,28,46,0.1))" r="24"></circle>
+<circle cx="0" cy="0" fill="#1d4ed8" r="6"></circle>
+<text fill="#0d1c2e" font-size="11" font-weight="700" text-anchor="middle" x="0" y="38">IV. CIVIC</text>
+</g>
+<!-- Curved arrows indicating feedback loop -->
+<path d="M 75 140 A 130 130 0 0 1 140 75" stroke="#1d4ed8" stroke-linecap="round" stroke-width="2.5"></path>
+<polygon fill="#1d4ed8" points="144,70 148,82 136,78"></polygon>
+</svg>
+</div>
+<div class="w-full mt-space-md pt-space-md bg-surface-container p-space-md rounded-xl text-center">
+<span class="font-label-caps text-label-caps text-secondary uppercase">Recursive Compounding</span>
+<p class="font-body-sm text-body-sm text-on-surface mt-space-xs">
+              Every graduate reinforces the cohort base, creating an ever-expanding gravity of communal sovereignty.
+            </p>
+</div>
+</div>
+<!-- Right: Manifesto & Graduate Mentor Ecosystem -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-high text-secondary font-label-caps text-label-caps tracking-wider self-start">
+            ALUMNAE CONTINUUM
+          </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+            "When a graduate mentors an incoming woman, the system becomes <span class="text-secondary italic font-display-hero">self-sustaining and anti-fragile.</span>"
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Conventional social systems create permanent programmatic dependency. BTBD reverses the vector. Cohort graduates are certified as paid peer guides, community case coordinators, and trust anchors for incoming women crossing the threshold.
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md mt-space-sm">
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">assignment_turned_in</span>
+<h4 class="font-title-md text-title-md text-on-surface mt-space-xs">Certified Peer Guide Fellowship</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                Accredited 120-hour trauma-informed navigation curriculum providing direct stipend-backed employment.
+              </p>
+</div>
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">diversity_2</span>
+<h4 class="font-title-md text-title-md text-on-surface mt-space-xs">Living Endowments</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                Alumnae hold active governance seats to direct institutional funding and community safety protocols.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. The AutoNateAI Ascension Assessment Engine (Interactive Widget) -->
+<section class="w-full bg-surface-container-low py-space-2xl" id="assessment-engine">
+<div class="w-full max-w-[1280px] mx-auto px-gutter">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Algorithmic Baseline Calculator</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-space-xs">The AutoNateAI Ascension Engine</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+            Adjust the sliders below to simulate baseline capacity scores across the four domains and generate a dynamic roadmap preview.
+          </p>
+</div>
+<!-- Simulation Bento Panel -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg bg-surface-container-lowest p-space-xl rounded-2xl shadow-xl">
+<!-- Left: 4 Interactive Sliders -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<h3 class="font-headline-sm text-headline-sm text-on-surface flex items-center justify-between">
+<span>Domain Capacity Inputs</span>
+<button class="font-body-sm text-body-sm text-secondary hover:underline" id="reset-sim">Reset Defaults</button>
+</h3>
+<!-- Slider 1: Self -->
+<div class="flex flex-col gap-space-xs p-space-md bg-surface-container-low rounded-xl">
+<div class="flex justify-between items-center">
+<label class="font-title-md text-title-md text-on-surface flex items-center gap-space-xs" for="slider-self">
+<span class="material-symbols-outlined text-secondary text-[18px]">self_improvement</span>
+                  Domain I: Self &amp; Nervous System
+                </label>
+<span class="font-headline-sm text-headline-sm text-secondary" id="val-self">65%</span>
+</div>
+<input class="w-full accent-secondary cursor-pointer mt-space-xs" id="slider-self" max="100" min="10" type="range" value="65"/>
+<div class="flex justify-between font-body-sm text-body-sm text-outline">
+<span>Acutely Overwhelmed</span>
+<span>Autonomous Sovereign</span>
+</div>
+</div>
+<!-- Slider 2: Child -->
+<div class="flex flex-col gap-space-xs p-space-md bg-surface-container-low rounded-xl">
+<div class="flex justify-between items-center">
+<label class="font-title-md text-title-md text-on-surface flex items-center gap-space-xs" for="slider-child">
+<span class="material-symbols-outlined text-secondary text-[18px]">escalator_warning</span>
+                  Domain II: Child Security &amp; Advocacy
+                </label>
+<span class="font-headline-sm text-headline-sm text-secondary" id="val-child">40%</span>
+</div>
+<input class="w-full accent-secondary cursor-pointer mt-space-xs" id="slider-child" max="100" min="10" type="range" value="40"/>
+<div class="flex justify-between font-body-sm text-body-sm text-outline">
+<span>Vulnerable Cycle</span>
+<span>Generational Anchor</span>
+</div>
+</div>
+<!-- Slider 3: Family -->
+<div class="flex flex-col gap-space-xs p-space-md bg-surface-container-low rounded-xl">
+<div class="flex justify-between items-center">
+<label class="font-title-md text-title-md text-on-surface flex items-center gap-space-xs" for="slider-family">
+<span class="material-symbols-outlined text-secondary text-[18px]">diversity_1</span>
+                  Domain III: Relational &amp; Domestic Safety
+                </label>
+<span class="font-headline-sm text-headline-sm text-secondary" id="val-family">55%</span>
+</div>
+<input class="w-full accent-secondary cursor-pointer mt-space-xs" id="slider-family" max="100" min="10" type="range" value="55"/>
+<div class="flex justify-between font-body-sm text-body-sm text-outline">
+<span>High Coercion Risk</span>
+<span>Fortified Sovereign Home</span>
+</div>
+</div>
+<!-- Slider 4: Community -->
+<div class="flex flex-col gap-space-xs p-space-md bg-surface-container-low rounded-xl">
+<div class="flex justify-between items-center">
+<label class="font-title-md text-title-md text-on-surface flex items-center gap-space-xs" for="slider-community">
+<span class="material-symbols-outlined text-secondary text-[18px]">groups_3</span>
+                  Domain IV: Economic &amp; Civic Momentum
+                </label>
+<span class="font-headline-sm text-headline-sm text-secondary" id="val-community">30%</span>
+</div>
+<input class="w-full accent-secondary cursor-pointer mt-space-xs" id="slider-community" max="100" min="10" type="range" value="30"/>
+<div class="flex justify-between font-body-sm text-body-sm text-outline">
+<span>Isolated Fringe</span>
+<span>Civic Catalyst</span>
+</div>
+</div>
+</div>
+<!-- Right: Real-time Output & Diagnostic Roadmap -->
+<div class="lg:col-span-5 bg-surface-container p-space-lg rounded-xl flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">AI Diagnostic Output</span>
+<span class="flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-lowest text-secondary font-label-caps text-label-caps">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Live Model
+                </span>
+</div>
+<!-- Composite Score Gauge -->
+<div class="mt-space-md p-space-md bg-surface-container-lowest rounded-xl flex items-center gap-space-md">
+<div class="w-20 h-20 rounded-full bg-surface-container flex flex-col items-center justify-center shrink-0">
+<span class="font-headline-md text-headline-md text-on-surface leading-none" id="composite-score">48</span>
+<span class="font-label-caps text-label-caps text-secondary mt-1">INDEX</span>
+</div>
+<div>
+<span class="font-title-md text-title-md text-on-surface block" id="composite-tier">Tier II: Stabilization Phase</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-space-xs">Primary intervention requires nervous system shielding and child stability protocols.</span>
+</div>
+</div>
+<!-- Recommended Next Intervention Milestones -->
+<div class="mt-space-lg">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Recommended Sequence</span>
+<div class="flex flex-col gap-space-sm mt-space-sm">
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-lowest">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div>
+<span class="font-title-md text-title-md text-on-surface block">Phase 1: Somatic Safe Harbor</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Immediate decompression, safe bed access, restorative nutrition.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-lowest">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div>
+<span class="font-title-md text-title-md text-on-surface block">Phase 2: Child Care Equity Stipend</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Unconditional subsidy for verified early childhood development.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container-lowest">
+<span class="material-symbols-outlined text-outline text-[20px] mt-0.5">lock</span>
+<div>
+<span class="font-title-md text-title-md text-outline block">Phase 3: Micro-Enterprise Launchpad</span>
+<span class="font-body-sm text-body-sm text-outline">Unlocks when Domain I exceeds 75% baseline.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Action Button -->
+<div class="mt-space-lg">
+<a class="w-full inline-flex items-center justify-center px-space-md py-space-md rounded-full font-title-md text-title-md text-on-secondary bg-secondary hover:bg-secondary-container transition-all shadow-md" href="#intake">
+                Lock Assessment &amp; Initiate Protocol
+              </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Direct Action CTA Banner -->
+<section class="w-full max-w-[1280px] mx-auto px-gutter py-space-2xl" id="intake">
+<div class="relative bg-primary text-on-primary p-space-xl md:p-space-2xl rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row items-center justify-between gap-space-xl">
+<!-- Background Pattern Deco -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 bg-surface-tint/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="max-w-xl z-10">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-high/20 text-inverse-on-surface font-label-caps text-label-caps tracking-wider mb-space-sm">
+            THRESHOLD PORTAL
+          </div>
+<h2 class="font-headline-lg text-headline-lg text-on-primary tracking-tight">
+            Ready to Begin Your Ascension?
+          </h2>
+<p class="font-body-lg text-body-lg text-inverse-on-surface/80 mt-space-sm leading-relaxed">
+            Confidential intake takes less than 8 minutes. We prioritize bodily safety, dignified autonomy, and permanent stability for you and your family.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md z-10 w-full sm:w-auto shrink-0">
+<a class="inline-flex items-center justify-center px-space-xl py-space-md rounded-full font-title-md text-title-md text-on-secondary bg-secondary hover:bg-secondary-container transition-all shadow-lg text-center" href="#">
+            Start Confidential Intake
+          </a>
+<a class="inline-flex items-center justify-center px-space-lg py-space-md rounded-full font-title-md text-title-md text-on-primary bg-primary-container hover:bg-surface-container-highest/20 transition-all text-center" href="#">
+            Review Audit Ledger
+          </a>
+</div>
+</div>
+</section>
+</div>
+<!-- Interactive Logic for AutoNateAI Assessment Engine -->
+<script>
+    (function initAscensionEngine() {
+      const sliderSelf = document.getElementById('slider-self');
+      const sliderChild = document.getElementById('slider-child');
+      const sliderFamily = document.getElementById('slider-family');
+      const sliderCommunity = document.getElementById('slider-community');
+
+      const valSelf = document.getElementById('val-self');
+      const valChild = document.getElementById('val-child');
+      const valFamily = document.getElementById('val-family');
+      const valCommunity = document.getElementById('val-community');
+
+      const compositeScoreEl = document.getElementById('composite-score');
+      const compositeTierEl = document.getElementById('composite-tier');
+      const resetBtn = document.getElementById('reset-sim');
+
+      function updateCalculation() {
+        if (!sliderSelf || !sliderChild || !sliderFamily || !sliderCommunity) return;
+
+        const s = parseInt(sliderSelf.value, 10);
+        const c = parseInt(sliderChild.value, 10);
+        const f = parseInt(sliderFamily.value, 10);
+        const com = parseInt(sliderCommunity.value, 10);
+
+        valSelf.textContent = s + '%';
+        valChild.textContent = c + '%';
+        valFamily.textContent = f + '%';
+        valCommunity.textContent = com + '%';
+
+        // Weighted AutoNateAI algorithm (Self: 35%, Child: 25%, Family: 20%, Community: 20%)
+        const composite = Math.round((s * 0.35) + (c * 0.25) + (f * 0.20) + (com * 0.20));
+        compositeScoreEl.textContent = composite;
+
+        if (composite < 40) {
+          compositeTierEl.textContent = 'Tier I: Rapid Stabilization Protocol';
+        } else if (composite < 65) {
+          compositeTierEl.textContent = 'Tier II: Domestic & Child Fortification';
+        } else if (composite < 85) {
+          compositeTierEl.textContent = 'Tier III: Relational Sovereignty';
+        } else {
+          compositeTierEl.textContent = 'Tier IV: Civic & Enterprise Leadership';
+        }
+      }
+
+      [sliderSelf, sliderChild, sliderFamily, sliderCommunity].forEach(input => {
+        if (input) {
+          input.addEventListener('input', updateCalculation);
+        }
+      });
+
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          sliderSelf.value = 65;
+          sliderChild.value = 40;
+          sliderFamily.value = 55;
+          sliderCommunity.value = 30;
+          updateCalculation();
+        });
+      }
+
+      updateCalculation();
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest text-on-surface mt-space-2xl"><div class="w-full max-w-[1280px] mx-auto px-gutter pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-2xl"><div class="lg:col-span-2 flex flex-col items-start gap-space-md pr-space-lg"><div class="flex items-center gap-space-sm"><img alt="Beyond the Blue Door Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XsskP-cENIsoFMTQnopjkSkbVuBkhBHv2XjT1OAKdBjpYnFuwk0gqQWixtCAd1hOCAV8X6QMh0gGhmIltWeXcpHZNjqwJ0oGmj8E0-5iMNf8aqDa6-ZVGDP_9sqn49bj8ggAQuEA17isnHgWy3YG53uPsCctVZpyeOQB8wKknlaaBf0YS4sNGgy0y23vMu0MA8UaLOJCMRUozpywNT-tupKT6BzVkPyCaIgMM5yHhWNeKiJG7JbxPaqw"/><span class="font-headline-sm text-headline-sm text-on-surface">Beyond the Blue Door</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Crossing the threshold from systemic friction into generational prosperity. Anchoring high-conviction capital, transformative mentorship, and recursive developmental cycles for families nationwide.</p><div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface-container-low w-full max-w-sm"><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">Direct Support &amp; Rapid Intake</span><span class="font-title-md text-title-md text-on-surface flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[20px]">support_agent</span> 1-800-555-BTBD (Intake Helpline)</span><span class="font-body-sm text-body-sm text-on-surface-variant">24/7 Confidential Case Coordination &amp; Safe Transition</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">Ascension Domains</span><ul class="flex flex-col gap-space-sm mt-space-xs"><li class="flex flex-col"><a class="font-title-md text-title-md text-on-surface hover:text-secondary transition-colors" data-path="domain-self" href="#">Domain I: Self</a><span class="font-body-sm text-body-sm text-on-surface-variant">Mindset &amp; Identity Core</span></li><li class="flex flex-col"><a class="font-title-md text-title-md text-on-surface hover:text-secondary transition-colors" data-path="domain-child" href="#">Domain II: Child</a><span class="font-body-sm text-body-sm text-on-surface-variant">Educational Sovereignty</span></li><li class="flex flex-col"><a class="font-title-md text-title-md text-on-surface hover:text-secondary transition-colors" data-path="domain-family" href="#">Domain III: Family</a><span class="font-body-sm text-body-sm text-on-surface-variant">Generational Wealth Engine</span></li><li class="flex flex-col"><a class="font-title-md text-title-md text-on-surface hover:text-secondary transition-colors" data-path="domain-community" href="#">Domain IV: Community</a><span class="font-body-sm text-body-sm text-on-surface-variant">Civic &amp; Economic Gravity</span></li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">Organization</span><ul class="flex flex-col gap-space-sm mt-space-xs"><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="our-program" href="#">Programs Overview</a></li><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="the-ascension-model" href="#">The Ascension Model</a></li><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="financial-growth" href="#">Financial Growth</a></li><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="impact-and-intelligence" href="#">Impact Analytics</a></li><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="community-and-partners" href="#">Partner Network</a></li><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">Leadership &amp; Governance</a></li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">Ecosystem &amp; Governance</span><div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface-container-high/40"><span class="font-title-md text-title-md text-on-surface flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[20px]">verified</span> 501(c)(3) Entity</span><span class="font-body-sm text-body-sm text-on-surface-variant">Public Charity verified for institutional endowment matching and donor-advised trusts.</span></div><div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface-container-low"><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">System Architecture</span><span class="font-body-sm text-body-sm text-on-surface leading-snug">Intelligence &amp; Ecosystem Architecture Powered by <strong>AutoNateAI</strong></span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm bg-surface-container-low/40 px-space-md py-space-sm rounded-xl"><div class="flex items-center gap-space-sm"><span>© 2025 Beyond the Blue Door (BTBD). All rights reserved.</span></div><div class="flex items-center gap-space-lg"><a class="hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" data-path="institutional-disclosure" href="#">Institutional Disclosure</a><a class="text-secondary font-title-md hover:underline" data-path="crisis-intake-portal" href="#">Emergency Intake</a></div></div></div></footer></body></html>

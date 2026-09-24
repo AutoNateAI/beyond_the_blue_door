@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Beyond the Blue Door (BTBD)</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary": "#ffffff", "on-surface-variant": "#44474c", "on-primary-fixed-variant": "#3a4859", "primary": "#000000", "surface-container-high": "#dce9ff", "inverse-on-surface": "#eaf1ff", "tertiary-fixed": "#ffdcc3", "secondary": "#1d4ed8", "on-secondary": "#ffffff", "on-surface": "#0d1c2e", "on-tertiary": "#ffffff", "on-primary-fixed": "#0f1c2c", "surface-dim": "#ccdbf3", "on-background": "#0d1c2e", "surface": "#f8f9ff", "on-secondary-container": "#fffbff", "surface-variant": "#d5e3fc", "surface-tint": "#525f71", "outline": "#74777d", "error-container": "#ffdad6", "tertiary-fixed-dim": "#ffb77d", "surface-container-lowest": "#ffffff", "primary-fixed-dim": "#bac8dc", "surface-container": "#e6eeff", "surface-bright": "#f8f9ff", "on-secondary-fixed": "#001551", "primary-container": "#0f1c2c", "secondary-container": "#4069f2", "background": "#f8f9ff", "primary-fixed": "#d6e4f9", "tertiary-container": "#2f1500", "surface-container-low": "#eff4ff", "on-error-container": "#93000a", "inverse-surface": "#233144", "tertiary": "#000000", "on-tertiary-fixed-variant": "#6e3900", "secondary-fixed": "#dce1ff", "on-tertiary-container": "#c76c00", "outline-variant": "#c4c6cc", "inverse-primary": "#bac8dc", "surface-container-highest": "#d5e3fc", "on-secondary-fixed-variant": "#0039b5", "on-primary-container": "#778598", "on-tertiary-fixed": "#2f1500", "secondary-fixed-dim": "#b7c4ff", "error": "#ba1a1a", "on-error": "#ffffff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "1.5rem", "space-xs": "0.25rem", "gutter-mobile": "1rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "margin-mobile": "1.25rem", "margin": "3rem", "space-2xl": "4rem", "space-md": "1rem", "space-xl": "2.5rem" }, "fontFamily": { "display-hero": [ "Playfair Display" ], "headline-lg-mobile": [ "Playfair Display" ], "body-lg": [ "Plus Jakarta Sans" ], "label-caps": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ], "headline-lg": [ "Playfair Display" ], "body-md": [ "Plus Jakarta Sans" ], "title-md": [ "Plus Jakarta Sans" ], "label-metric": [ "Plus Jakarta Sans" ], "body-sm": [ "Plus Jakarta Sans" ], "headline-md": [ "Playfair Display" ], "display-hero-mobile": [ "Playfair Display" ] }, "fontSize": { "display-hero": [ "56px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "label-caps": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "700" } ], "headline-lg": [ "40px", { "lineHeight": "50px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "title-md": [ "16px", { "lineHeight": "24px", "fontWeight": "600" } ], "label-metric": [ "32px", { "lineHeight": "36px", "letterSpacing": "-0.03em", "fontWeight": "800" } ], "body-sm": [ "13px", { "lineHeight": "18px", "fontWeight": "400" } ], "headline-md": [ "28px", { "lineHeight": "36px", "fontWeight": "600" } ], "display-hero-mobile": [ "38px", { "lineHeight": "46px", "letterSpacing": "-0.015em", "fontWeight": "700" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(13,28,46,0.04)]"><div class="h-20 w-full max-w-[1280px] mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Beyond the Blue Door Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XsskP-cENIsoFMTQnopjkSkbVuBkhBHv2XjT1OAKdBjpYnFuwk0gqQWixtCAd1hOCAV8X6QMh0gGhmIltWeXcpHZNjqwJ0oGmj8E0-5iMNf8aqDa6-ZVGDP_9sqn49bj8ggAQuEA17isnHgWy3YG53uPsCctVZpyeOQB8wKknlaaBf0YS4sNGgy0y23vMu0MA8UaLOJCMRUozpywNT-tupKT6BzVkPyCaIgMM5yHhWNeKiJG7JbxPaqw"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface leading-none">Beyond the Blue Door</span><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary mt-space-xs">Ascension of Self™</span></div></div><nav class="hidden xl:flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-low/60" data-active-classes="bg-surface-container text-secondary font-title-md"><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="our-program" href="#">Our Program</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="the-ascension-model" href="#">The Ascension Model</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="financial-growth" href="#">Financial Growth</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="impact-and-intelligence" href="#">Impact &amp; Intelligence</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="community-and-partners" href="#">Community &amp; Partners</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="about" href="#">About</a></nav><div class="flex items-center gap-space-sm shrink-0"><a class="hidden sm:inline-flex items-center justify-center px-space-lg py-space-sm rounded-full font-title-md text-title-md text-primary-container bg-surface-container-lowest shadow-[0_1px_4px_rgba(13,28,46,0.08)] hover:bg-surface-container hover:text-on-surface transition-all" data-path="partner-and-fund" href="#">Partner &amp; Fund</a><a class="inline-flex items-center justify-center px-space-lg py-space-sm rounded-full font-title-md text-title-md text-on-secondary bg-secondary hover:bg-secondary-container shadow-[0_4px_16px_rgba(29,78,216,0.25)] transition-all" data-path="begin-your-journey" href="#">Begin Your Journey</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Sovereign Header / Ambient Backdrop Banner -->
+<section class="relative w-full bg-primary-container text-on-primary overflow-hidden pt-space-2xl pb-space-2xl">
+<div class="absolute inset-0 opacity-15 pointer-events-none">
+<svg class="w-full h-full" fill="none" viewbox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialgradient cx="60%" cy="30%" id="ledgerGlow" r="65%">
+<stop offset="0%" stop-color="#4069f2" stop-opacity="0.6"></stop>
+<stop offset="60%" stop-color="#1d4ed8" stop-opacity="0.15"></stop>
+<stop offset="100%" stop-color="#0f1c2c" stop-opacity="0"></stop>
+</radialgradient>
+</defs>
+<rect fill="url(#ledgerGlow)" height="600" width="1440"></rect>
+<path d="M-100 200 C300 120, 700 380, 1540 180" opacity="0.4" stroke="#4069f2" stroke-dasharray="6 8" stroke-width="1.5"></path>
+<path d="M-100 320 C400 280, 850 480, 1540 300" opacity="0.3" stroke="#ffdcc3" stroke-dasharray="4 6" stroke-width="1"></path>
+</svg>
+</div>
+<div class="relative max-w-[1280px] mx-auto px-gutter flex flex-col gap-space-lg">
+<!-- Institutional Micro Badge -->
+<div class="inline-flex items-center gap-space-sm px-space-md py-space-xs rounded-full bg-surface-container-lowest/10 backdrop-blur-md self-start text-on-primary">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary-fixed">CAPITAL &amp; INSTITUTIONAL GOVERNANCE · POWERED BY AUTONATEAI</span>
+</div>
+<!-- Main Header Layout Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-end">
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<h1 class="font-headline-lg text-headline-lg tracking-tight text-on-primary leading-tight">
+            Transforming Philanthropic Capital into a <span class="italic font-display-hero text-tertiary-fixed">Measurable Operating System.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim max-w-2xl leading-relaxed">
+            High-conviction funders don’t sponsor vague charity. They sponsor verified, auditable human capacity progression tracked across the live AutoNateAI Ascension Ledger™.
+          </p>
+</div>
+<div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-space-sm self-start lg:self-end w-full">
+<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-space-md rounded-full font-title-md text-title-md bg-secondary text-on-secondary shadow-lg hover:bg-secondary-container transition-all" href="#prospectus-modal">
+<span class="material-symbols-outlined text-[20px]">download</span>
+            Download 2025 Audit Prospectus
+          </a>
+<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-space-md rounded-full font-title-md text-title-md bg-surface-container-lowest/10 text-on-primary hover:bg-surface-container-lowest/20 backdrop-blur-sm transition-all" href="#briefing-form">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+            Schedule Institutional Briefing
+          </a>
+</div>
+</div>
+<!-- Trust Bar Indicators -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md pt-space-lg">
+<div class="flex items-center gap-space-sm text-on-primary-fixed-variant">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px]" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<span class="font-body-sm text-body-sm text-surface-variant">501(c)(3) Gold Transparency Verified</span>
+</div>
+<div class="flex items-center gap-space-sm text-on-primary-fixed-variant">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px]" style="font-variation-settings: 'FILL' 1;">account_balance</span>
+<span class="font-body-sm text-body-sm text-surface-variant">CRA &amp; DAF Compatible Protocol</span>
+</div>
+<div class="flex items-center gap-space-sm text-on-primary-fixed-variant">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px]" style="font-variation-settings: 'FILL' 1;">dataset</span>
+<span class="font-body-sm text-body-sm text-surface-variant">Continuous Milestone Cryptographic Trace</span>
+</div>
+<div class="flex items-center gap-space-sm text-on-primary-fixed-variant">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px]" style="font-variation-settings: 'FILL' 1;">balance</span>
+<span class="font-body-sm text-body-sm text-surface-variant">Audited Annual General Returns</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Live AutoNateAI Intelligence Dashboard Module -->
+<section class="relative max-w-[1280px] w-full mx-auto px-gutter -mt-8 z-10">
+<div class="rounded-xl bg-surface-container-lowest shadow-xl p-space-md md:p-space-xl flex flex-col gap-space-xl">
+<!-- Dashboard Top Header Bar -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md pb-space-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">hub</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-title-md text-title-md text-on-surface">AutoNateAI Ascension Ledger™ Live Feeds</span>
+<span class="inline-flex items-center px-space-xs py-0.5 rounded-full text-[10px] font-bold tracking-wider bg-surface-container text-secondary uppercase">SYS: V4.1.9</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">SEMO Delta Regional Deployment Zone • Real-time node status</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-body-sm text-body-sm bg-surface-container-low px-space-md py-space-xs rounded-full">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-ping"></span>
+<span>Ledger Timestamp: Block #884,921 synced</span>
+</div>
+</div>
+<!-- Real-Time Metrics Grid (Level 2 Elevation with Soft Glass Aesthetic) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Metric 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-md hover:bg-surface-container transition-all">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Active Cohort Roster</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">groups</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-metric text-label-metric text-on-surface">87 Cases</span>
+<div class="flex items-center gap-space-xs mt-space-xs">
+<span class="inline-flex items-center px-space-xs py-0.5 rounded bg-surface-container-highest text-secondary text-body-sm font-semibold">100% Retained</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">in Q1 Cycle</span>
+</div>
+</div>
+</div>
+<!-- Metric 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-md hover:bg-surface-container transition-all">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Employer Partners</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">corporate_fare</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-metric text-label-metric text-on-surface">42 Hubs</span>
+<div class="flex items-center gap-space-xs mt-space-xs">
+<span class="inline-flex items-center px-space-xs py-0.5 rounded bg-surface-container-highest text-secondary text-body-sm font-semibold">SEMO Ag &amp; Health</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Integrated</span>
+</div>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-md hover:bg-surface-container transition-all">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Audit Tracing</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">fact_check</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-metric text-label-metric text-on-surface">100%</span>
+<div class="flex items-center gap-space-xs mt-space-xs">
+<span class="inline-flex items-center px-space-xs py-0.5 rounded bg-surface-container-highest text-secondary text-body-sm font-semibold">Milestone Log</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zero discrepancy</span>
+</div>
+</div>
+</div>
+<!-- Metric 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-md hover:bg-surface-container transition-all">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Circulated Regional Value</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">monetization_on</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-metric text-label-metric text-on-surface">$2.4M</span>
+<div class="flex items-center gap-space-xs mt-space-xs">
+<span class="inline-flex items-center px-space-xs py-0.5 rounded bg-surface-container-highest text-secondary text-body-sm font-semibold">SEMO GDP Impact</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Compounding</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Trajectory Graph & Audit Proof Split -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-stretch">
+<!-- SVG Trajectory Visualization (8 Cols) -->
+<div class="lg:col-span-8 p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div>
+<span class="font-title-md text-title-md text-on-surface block">Continuous Human Capital Trajectory</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Quantified Ascension Progression across 4 Recursive Domains</span>
+</div>
+<div class="flex items-center gap-space-md text-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-outline-variant"></span>
+<span>Baseline</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-secondary-container"></span>
+<span>90-Day</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span>1-Year</span>
+</div>
+</div>
+</div>
+<!-- Inline Technical SVG Graph -->
+<div class="w-full h-64 overflow-hidden relative">
+<svg class="w-full h-full" fill="none" preserveaspectratio="none" viewbox="0 0 740 240">
+<!-- Grid lines -->
+<line stroke="#d5e3fc" stroke-dasharray="3 3" x1="0" x2="740" y1="40" y2="40"></line>
+<line stroke="#d5e3fc" stroke-dasharray="3 3" x1="0" x2="740" y1="100" y2="100"></line>
+<line stroke="#d5e3fc" stroke-dasharray="3 3" x1="0" x2="740" y1="160" y2="160"></line>
+<line stroke="#bac8dc" stroke-width="1.5" x1="0" x2="740" y1="220" y2="220"></line>
+<!-- Baseline Area (Slate/Neutral) -->
+<path d="M0 200 C 180 205, 360 195, 540 190 L 740 185 L 740 220 L 0 220 Z" fill="#d5e3fc" opacity="0.4"></path>
+<path d="M0 200 C 180 205, 360 195, 540 190 L 740 185" stroke="#74777d" stroke-dasharray="4 4" stroke-width="2"></path>
+<!-- 90-Day Intermediate Curve (Lighter Cobalt) -->
+<path d="M0 185 C 180 150, 360 120, 540 95 L 740 70 L 740 220 L 0 220 Z" fill="#4069f2" opacity="0.1"></path>
+<path d="M0 185 C 180 150, 360 120, 540 95 L 740 70" stroke="#4069f2" stroke-width="2.5"></path>
+<!-- 1-Year Validated Trajectory Curve (Solid High Cobalt) -->
+<path d="M0 180 C 140 130, 320 85, 500 50 L 740 28 L 740 220 L 0 220 Z" fill="url(#blueAscentGrad)" opacity="0.15"></path>
+<path d="M0 180 C 140 130, 320 85, 500 50 L 740 28" stroke="#1d4ed8" stroke-width="3.5"></path>
+<defs>
+<lineargradient id="blueAscentGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#1d4ed8"></stop>
+<stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"></stop>
+</lineargradient>
+</defs>
+<!-- Node Points for Domain Milestones -->
+<circle cx="160" cy="125" fill="#1d4ed8" r="5" stroke="#ffffff" stroke-width="2"></circle>
+<circle cx="340" cy="80" fill="#1d4ed8" r="5" stroke="#ffffff" stroke-width="2"></circle>
+<circle cx="520" cy="46" fill="#1d4ed8" r="5" stroke="#ffffff" stroke-width="2"></circle>
+<circle cx="700" cy="30" fill="#1d4ed8" r="6" stroke="#ffdcc3" stroke-width="2.5"></circle>
+</svg>
+</div>
+<!-- Domain Delta Indicators -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm pt-space-xs">
+<div class="p-space-xs bg-surface-container-lowest rounded-lg flex flex-col">
+<span class="font-label-caps text-[10px] uppercase text-on-surface-variant">I. Personal Core</span>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">+78 pts</span>
+<span class="text-[11px] text-on-surface-variant">Cognitive shift</span>
+</div>
+<div class="p-space-xs bg-surface-container-lowest rounded-lg flex flex-col">
+<span class="font-label-caps text-[10px] uppercase text-on-surface-variant">II. Child Stability</span>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">+84 pts</span>
+<span class="text-[11px] text-on-surface-variant">Academic retention</span>
+</div>
+<div class="p-space-xs bg-surface-container-lowest rounded-lg flex flex-col">
+<span class="font-label-caps text-[10px] uppercase text-on-surface-variant">III. Family Capital</span>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">+69 pts</span>
+<span class="text-[11px] text-on-surface-variant">Asset acceleration</span>
+</div>
+<div class="p-space-xs bg-surface-container-lowest rounded-lg flex flex-col">
+<span class="font-label-caps text-[10px] uppercase text-on-surface-variant">IV. Civic Gravity</span>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">+62 pts</span>
+<span class="text-[11px] text-on-surface-variant">Community return</span>
+</div>
+</div>
+</div>
+<!-- Cryptographic Audit & Compliance Card (4 Cols) -->
+<div class="lg:col-span-4 p-space-lg rounded-xl bg-inverse-surface text-inverse-on-surface flex flex-col justify-between gap-space-md relative overflow-hidden">
+<div class="flex flex-col gap-space-xs">
+<div class="inline-flex items-center gap-space-xs text-secondary-fixed">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="font-label-caps text-label-caps tracking-wider uppercase">Institutional Trust Proof</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-secondary leading-snug">
+              Immutable Verification Ledger
+            </h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest/80 leading-relaxed">
+              Every participant milestone is cryptographically logged and validated against independent attendance, wage escalations, and child academic records.
+            </p>
+</div>
+<div class="space-y-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container-lowest/10 backdrop-blur-md flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-inverse-on-surface">501(c)(3) DAF Compatible</span>
+<span class="font-label-caps text-[10px] text-tertiary-fixed bg-surface-container-lowest/15 px-space-xs py-0.5 rounded uppercase">Verified</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest/10 backdrop-blur-md flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-inverse-on-surface">CRA Regulatory Credit</span>
+<span class="font-label-caps text-[10px] text-secondary-fixed bg-surface-container-lowest/15 px-space-xs py-0.5 rounded uppercase">Tier 1 Bank Proof</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest/10 backdrop-blur-md flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-inverse-on-surface">Audit Trail Hash</span>
+<span class="font-body-sm text-[11px] font-mono text-surface-variant truncate max-w-[120px]">0x8f2d...b14e</span>
+</div>
+</div>
+<div class="pt-space-xs">
+<a class="inline-flex items-center gap-space-xs font-title-md text-title-md text-secondary-fixed hover:text-on-secondary transition-colors" href="#governance-specs">
+<span>Inspect Cryptographic Audit Specs</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Institutional Briefing Visual Spotlight (Inspired by Attached Image) -->
+<section class="max-w-[1280px] w-full mx-auto px-gutter py-space-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Image Showcase (6 cols) -->
+<div class="lg:col-span-6 relative rounded-2xl overflow-hidden shadow-xl bg-surface-container">
+<img class="w-full h-[420px] object-cover" data-alt="An authoritative African American female executive in a navy tailored blazer standing confidently in a sunlit modern corporate seminar room, leading a strategic briefing session with agribusiness directors, community bank program officers, and young leaders seated around a sleek walnut conference table in Missouri, professional executive documentary lighting with soft azure atmospheric reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsgEVCG7l3WjTH3HJ0WchfM9TUIgATFnJ0tPey_7rz35dWeRDP6SyxlzPYNPboG7HUA5QpKaxlfcjBuC4gV2sY7A-an9owQGoUEr8eIThPKhEkNxWFzMrVvjAzI_zI3vEmSQRyPlmNle5Ixih0MvUZPYCuMnjiaOUGEmp5gYQACclkmir-Np6VVIAAbLeAit8pN6_YPIHgN28ufgbTB08ut9GdwxGt9yLow--t9avgBSaAE1in7T4q"/>
+<div class="absolute bottom-0 inset-x-0 p-space-md bg-gradient-to-t from-primary-container/90 via-primary-container/40 to-transparent text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider block">Quarterly Stakeholder Briefing</span>
+<p class="font-title-md text-title-md text-surface-bright">SEMO Agribusiness Leadership &amp; Financial Sovereign Council</p>
+</div>
+</div>
+<!-- Narrative Commentary (6 cols) -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-[20px]">account_tree</span>
+<span class="font-label-caps text-label-caps uppercase tracking-wider">Multi-Stakeholder Alignment</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface leading-tight">
+          Where Generational Philanthropy meets Regional Economic Reality.
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Beyond the Blue Door unites civic banks, regional agricultural powerhouses, and philanthropic family offices around a shared, non-negotiable metric: self-sustaining family sovereignty. We eliminate programmatic waste by anchoring all interventions directly into regional industry pipelines.
+        </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-xs">
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface">3.8x</span>
+<span class="font-title-md text-title-md text-on-surface">Capital Velocity Multiplier</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Every endowed dollar recirculates in local agricultural and housing equity within 24 months.</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface">94%</span>
+<span class="font-title-md text-title-md text-on-surface">Living Wage Placement</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Immediate placement into family-sustaining local career tracks across southeast Missouri.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4 Catalytic Institutional Funding Vehicles -->
+<section class="w-full bg-surface-container-low py-space-2xl">
+<div class="max-w-[1280px] w-full mx-auto px-gutter flex flex-col gap-space-xl">
+<!-- Section Intro -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md max-w-3xl">
+<div>
+<div class="inline-flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">account_balance_wallet</span>
+<span class="font-label-caps text-label-caps uppercase tracking-wider">Direct Capital Allocations</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+            Institutional Funding Vehicles
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Engineered for donor-advised funds (DAF), community reinvestment act (CRA) allocations, and family foundations seeking mathematically verifiable social return.
+        </p>
+</div>
+<!-- 4 Vehicle Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Vehicle 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-lg transition-transform hover:-translate-y-1">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[26px]">chair</span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Vehicle I • Participant Seat</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Cohort Seat Sponsorship</h3>
+<span class="font-label-metric text-label-metric text-secondary">$15,000</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Full 12-month transformation covering foundational mindset, personal sovereignty, recursive developmental coaching, and child educational advocacy for one family unit.
+            </p>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-md">
+<div class="text-[12px] text-on-surface-variant flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+              Includes quarterly milestone logs
+            </div>
+<a class="w-full py-space-xs text-center rounded-full font-title-md text-title-md bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" href="#briefing-form" onclick="selectVehicle('Cohort Sponsorship - $15,000')">
+              Sponsor Seat
+            </a>
+</div>
+</div>
+<!-- Vehicle 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-lg transition-transform hover:-translate-y-1">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[26px]">savings</span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Vehicle II • Asset Reserve</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Matched Savings &amp; Asset Fund</h3>
+<span class="font-label-metric text-label-metric text-secondary">$50,000</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Powers 3:1 catalytic asset matches for participant home down-payments, micro-enterprise seed rounds, and accredited agricultural debt refinancing.
+            </p>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-md">
+<div class="text-[12px] text-on-surface-variant flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+              Tier 1 CRA eligible compliance
+            </div>
+<a class="w-full py-space-xs text-center rounded-full font-title-md text-title-md bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" href="#briefing-form" onclick="selectVehicle('Matched Savings Fund - $50,000')">
+              Endow Pool
+            </a>
+</div>
+</div>
+<!-- Vehicle 3 (Featured) -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-md flex flex-col justify-between gap-space-lg relative overflow-hidden transition-transform hover:-translate-y-1">
+<div class="absolute top-0 right-0 px-space-sm py-0.5 bg-secondary text-on-secondary rounded-bl-lg font-label-caps text-[10px] uppercase tracking-wider">
+            Highest Demand
+          </div>
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[26px]">precision_manufacturing</span>
+</div>
+<span class="font-label-caps text-label-caps text-secondary uppercase">Vehicle III • Workforce</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Agribusiness Apprenticeship</h3>
+<span class="font-label-metric text-label-metric text-secondary">$100,000</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Establishes dedicated training cohorts aligned directly with southeast Missouri agricultural processing, advanced supply chain, and regenerative food systems.
+            </p>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-md">
+<div class="text-[12px] text-on-surface-variant flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+              Direct employer placement pipeline
+            </div>
+<a class="w-full py-space-xs text-center rounded-full font-title-md text-title-md bg-secondary text-on-secondary hover:bg-secondary-container transition-colors" href="#briefing-form" onclick="selectVehicle('Agribusiness Apprenticeship - $100,000')">
+              Fund Pipeline
+            </a>
+</div>
+</div>
+<!-- Vehicle 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-lg transition-transform hover:-translate-y-1">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[26px]">account_balance</span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Vehicle IV • Perpetual</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Regional Sovereign Endowment</h3>
+<span class="font-label-metric text-label-metric text-secondary">$500,000</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Creates a perpetual capital reserve stewarded under strict institutional fiduciary governance to protect the program against macroeconomic fluctuations.
+            </p>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-md">
+<div class="text-[12px] text-on-surface-variant flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+              Endowment Advisory Board seat
+            </div>
+<a class="w-full py-space-xs text-center rounded-full font-title-md text-title-md bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" href="#briefing-form" onclick="selectVehicle('Regional Sovereign Endowment - $500,000')">
+              Join Trustee Circle
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Governance, 990 Transparency & Audit Ledger Protocols -->
+<section class="max-w-[1280px] w-full mx-auto px-gutter py-space-2xl" id="governance-specs">
+<div class="rounded-2xl bg-surface-container p-space-lg md:p-space-xl flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider block">Fiduciary Rigor &amp; Compliance</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Governance &amp; Tax Transparency</h2>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="px-space-sm py-space-xs rounded-full bg-surface-container-lowest font-body-sm text-body-sm text-on-surface-variant font-semibold">
+            EIN: 84-XXXXXXX • Public Charity 501(c)(3)
+          </span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- 990 & Audit -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-[20px]">description</span>
+<span class="font-title-md text-title-md text-on-surface">IRS Form 990 Disclosures</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Complete, unredacted federal returns for fiscal years 2022, 2023, and 2024. Available instantly for institutional due diligence.
+            </p>
+</div>
+<div class="flex flex-col gap-space-xs pt-space-sm">
+<a class="inline-flex items-center justify-between text-body-sm text-body-sm text-secondary font-semibold hover:underline" href="#">
+<span>2024 Form 990 (Audited)</span>
+<span class="material-symbols-outlined text-[16px]">file_download</span>
+</a>
+<a class="inline-flex items-center justify-between text-body-sm text-body-sm text-secondary font-semibold hover:underline" href="#">
+<span>2023 Form 990 (Audited)</span>
+<span class="material-symbols-outlined text-[16px]">file_download</span>
+</a>
+</div>
+</div>
+<!-- Independent CPA Audit -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-[20px]">policy</span>
+<span class="font-title-md text-title-md text-on-surface">Independent CPA Financial Audit</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Annual unqualified clean opinion from independent regional public accounting auditors, verifying GAAP compliance and strict capital escrowing.
+            </p>
+</div>
+<div class="pt-space-sm">
+<a class="inline-flex items-center justify-between w-full text-body-sm text-body-sm text-secondary font-semibold hover:underline" href="#">
+<span>Independent Auditor's Report (PDF)</span>
+<span class="material-symbols-outlined text-[16px]">launch</span>
+</a>
+</div>
+</div>
+<!-- AutoNateAI Data Integrity -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-[20px]">security</span>
+<span class="font-title-md text-title-md text-on-surface">AutoNateAI Cryptographic Standard</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              HIPAA and FERPA compliant data hygiene. Longitudinal tracking logs milestones anonymously to uphold dignifying human privacy with zero compromise to impact metrics.
+            </p>
+</div>
+<div class="pt-space-sm">
+<a class="inline-flex items-center justify-between w-full text-body-sm text-body-sm text-secondary font-semibold hover:underline" href="#">
+<span>Data Architecture Whitepaper</span>
+<span class="material-symbols-outlined text-[16px]">lock_open</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Institutional Stakeholder Action & Intake Module -->
+<section class="max-w-[1280px] w-full mx-auto px-gutter pb-space-2xl" id="briefing-form">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center rounded-2xl bg-surface-container-lowest p-space-lg md:p-space-2xl shadow-xl">
+<!-- Left Editorial Pitch -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+<span class="font-label-caps text-label-caps uppercase tracking-wider">Institutional Engagement</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface leading-tight">
+          Request an Executive Intelligence Briefing.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Our senior leadership team conducts confidential institutional briefings for Foundation Program Officers, Bank CRA Directors, and Family Office CIOs.
+        </p>
+<div class="flex flex-col gap-space-sm pt-space-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">query_stats</span>
+<div>
+<span class="font-title-md text-title-md text-on-surface block">Custom Regional Impact Modeling</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">We project exact capacity gains across your specific geographic or industry target.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">lock</span>
+<div>
+<span class="font-title-md text-title-md text-on-surface block">Private Data Room Access</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Gain access to longitudinal cohort cohorts, participant trajectories, and audited ledgers.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Form Component -->
+<div class="lg:col-span-7 rounded-xl bg-surface-container-low p-space-lg flex flex-col gap-space-md">
+<form class="flex flex-col gap-space-md" id="institutionalIntakeForm" onsubmit="handleInstitutionalSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-title-md text-title-md text-on-surface" for="officerName">Executive / Officer Name *</label>
+<input class="px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-body-md focus:outline-none focus:ring-2 focus:ring-secondary" id="officerName" placeholder="e.g. Eleanor Vance" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-title-md text-title-md text-on-surface" for="institutionName">Institution / Entity *</label>
+<input class="px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-body-md focus:outline-none focus:ring-2 focus:ring-secondary" id="institutionName" placeholder="e.g. Delta Community Trust" required="" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-title-md text-title-md text-on-surface" for="officerEmail">Corporate / Institutional Email *</label>
+<input class="px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-body-md focus:outline-none focus:ring-2 focus:ring-secondary" id="officerEmail" placeholder="officer@foundation.org" required="" type="email"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-title-md text-title-md text-on-surface" for="capitalVehicle">Target Funding Vehicle</label>
+<select class="px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-body-md focus:outline-none focus:ring-2 focus:ring-secondary" id="capitalVehicle">
+<option value="General Exploration">General Institutional Exploration</option>
+<option value="Cohort Sponsorship - $15,000">Cohort Seat Sponsorship ($15,000)</option>
+<option value="Matched Savings Fund - $50,000">Matched Savings &amp; Asset Pool ($50,000)</option>
+<option value="Agribusiness Apprenticeship - $100,000">Agribusiness Apprenticeship ($100,000)</option>
+<option value="Regional Sovereign Endowment - $500,000">Regional Sovereign Endowment ($500,000)</option>
+<option value="Bank CRA Credit Allocation">Bank CRA Regulatory Allocation</option>
+</select>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-title-md text-title-md text-on-surface" for="scopeNotes">Mandate or Diligence Inquiries</label>
+<textarea class="px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-body-md focus:outline-none focus:ring-2 focus:ring-secondary" id="scopeNotes" placeholder="Detail your foundation's focus areas, timing, or CRA assessment territory..." rows="3"></textarea>
+</div>
+<div class="flex items-center gap-space-sm">
+<input class="w-4 h-4 rounded text-secondary focus:ring-secondary" id="ndaCheck" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-on-surface-variant" for="ndaCheck">Request executed Institutional Non-Disclosure Agreement prior to data room activation</label>
+</div>
+<button class="w-full sm:w-auto self-start px-space-xl py-space-md rounded-full font-title-md text-title-md bg-primary-container text-on-primary hover:bg-secondary hover:text-on-secondary shadow-md transition-all flex items-center justify-center gap-space-sm" type="submit">
+<span>Transmit Institutional Request</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</form>
+<div class="hidden p-space-md rounded-lg bg-surface-container-highest text-on-surface flex items-center gap-space-sm" id="intakeSuccessBanner">
+<span class="material-symbols-outlined text-secondary text-[24px]">check_circle</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md">Briefing Request Transmitted</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Our Managing Director of Institutional Capital will contact your office within 24 hours.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript -->
+<script>
+    function selectVehicle(vehicleName) {
+      const select = document.getElementById('capitalVehicle');
+      if (select) {
+        select.value = vehicleName;
+        const formSec = document.getElementById('briefing-form');
+        if (formSec) {
+          formSec.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    }
+
+    function handleInstitutionalSubmit(e) {
+      e.preventDefault();
+      const form = document.getElementById('institutionalIntakeForm');
+      const banner = document.getElementById('intakeSuccessBanner');
+      if (form && banner) {
+        form.classList.add('hidden');
+        banner.classList.remove('hidden');
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest text-on-surface mt-space-2xl"><div class="w-full max-w-[1280px] mx-auto px-gutter pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-2xl"><div class="lg:col-span-2 flex flex-col items-start gap-space-md pr-space-lg"><div class="flex items-center gap-space-sm"><img alt="Beyond the Blue Door Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XsskP-cENIsoFMTQnopjkSkbVuBkhBHv2XjT1OAKdBjpYnFuwk0gqQWixtCAd1hOCAV8X6QMh0gGhmIltWeXcpHZNjqwJ0oGmj8E0-5iMNf8aqDa6-ZVGDP_9sqn49bj8ggAQuEA17isnHgWy3YG53uPsCctVZpyeOQB8wKknlaaBf0YS4sNGgy0y23vMu0MA8UaLOJCMRUozpywNT-tupKT6BzVkPyCaIgMM5yHhWNeKiJG7JbxPaqw"/><span class="font-headline-sm text-headline-sm text-on-surface">Beyond the Blue Door</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Crossing the threshold from systemic friction into generational prosperity. Anchoring high-conviction capital, transformative mentorship, and recursive developmental cycles for families nationwide.</p><div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface-container-low w-full max-w-sm"><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">Direct Support &amp; Rapid Intake</span><span class="font-title-md text-title-md text-on-surface flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[20px]">support_agent</span> 1-800-555-BTBD (Intake Helpline)</span><span class="font-body-sm text-body-sm text-on-surface-variant">24/7 Confidential Case Coordination &amp; Safe Transition</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">Ascension Domains</span><ul class="flex flex-col gap-space-sm mt-space-xs"><li class="flex flex-col"><a class="font-title-md text-title-md text-on-surface hover:text-secondary transition-colors" data-path="domain-self" href="#">Domain I: Self</a><span class="font-body-sm text-body-sm text-on-surface-variant">Mindset &amp; Identity Core</span></li><li class="flex flex-col"><a class="font-title-md text-title-md text-on-surface hover:text-secondary transition-colors" data-path="domain-child" href="#">Domain II: Child</a><span class="font-body-sm text-body-sm text-on-surface-variant">Educational Sovereignty</span></li><li class="flex flex-col"><a class="font-title-md text-title-md text-on-surface hover:text-secondary transition-colors" data-path="domain-family" href="#">Domain III: Family</a><span class="font-body-sm text-body-sm text-on-surface-variant">Generational Wealth Engine</span></li><li class="flex flex-col"><a class="font-title-md text-title-md text-on-surface hover:text-secondary transition-colors" data-path="domain-community" href="#">Domain IV: Community</a><span class="font-body-sm text-body-sm text-on-surface-variant">Civic &amp; Economic Gravity</span></li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">Organization</span><ul class="flex flex-col gap-space-sm mt-space-xs"><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="our-program" href="#">Programs Overview</a></li><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="the-ascension-model" href="#">The Ascension Model</a></li><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="financial-growth" href="#">Financial Growth</a></li><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="impact-and-intelligence" href="#">Impact Analytics</a></li><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="community-and-partners" href="#">Partner Network</a></li><li class="flex flex-col"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">Leadership &amp; Governance</a></li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">Ecosystem &amp; Governance</span><div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface-container-high/40"><span class="font-title-md text-title-md text-on-surface flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[20px]">verified</span> 501(c)(3) Entity</span><span class="font-body-sm text-body-sm text-on-surface-variant">Public Charity verified for institutional endowment matching and donor-advised trusts.</span></div><div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface-container-low"><span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">System Architecture</span><span class="font-body-sm text-body-sm text-on-surface leading-snug">Intelligence &amp; Ecosystem Architecture Powered by <strong>AutoNateAI</strong></span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm bg-surface-container-low/40 px-space-md py-space-sm rounded-xl"><div class="flex items-center gap-space-sm"><span>© 2025 Beyond the Blue Door (BTBD). All rights reserved.</span></div><div class="flex items-center gap-space-lg"><a class="hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" data-path="institutional-disclosure" href="#">Institutional Disclosure</a><a class="text-secondary font-title-md hover:underline" data-path="crisis-intake-portal" href="#">Emergency Intake</a></div></div></div></footer></body></html>
